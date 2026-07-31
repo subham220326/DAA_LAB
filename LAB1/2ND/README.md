@@ -19,7 +19,7 @@ The simulation relies on pseudo-random number generation (`rand()`) seeded by th
 2. **Biased Coin (75%):** We use modulo 100 (`rand() % 100`). If the generated number is strictly less than 75 (0 through 74), it counts as Heads. If it is 75 to 99, it counts as Tails. This perfectly enforces a 75/25 algorithmic bias.
 
 --------------------------------------
-THE OUTPUT OF THIS PROGRAM IS GIVEN BELOW AND I HAVE ATTTACHED A SVG FILE TO SHOW THE SIMULATION FOR THE COMPARISON 
+## THE OUTPUT OF THIS PROGRAM IS GIVEN BELOW AND I HAVE ATTTACHED A SVG FILE TO SHOW THE SIMULATION FOR THE COMPARISON 
 
 
 ### 🎲 Experimental Data Output
