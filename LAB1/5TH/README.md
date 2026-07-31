@@ -36,4 +36,4 @@ Because the array is already sorted (all 0s naturally come before all 1s), we do
 ------------------------------
 
 > **Instructor:** Dr. Ajaya Kumar Dash  
-> **Date:** July 2026  
+> **Date:** 31 July 2026  
