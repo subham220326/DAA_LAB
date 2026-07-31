@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
+<rect width="100%" height="100%" fill="#f8f9fa"/>
+<text x="400" y="30" font-family="Arial" font-size="20" text-anchor="middle">Tower of Hanoi: Exponential Growth O(2^n)</text>
+<text x="400" y="590" font-family="Arial" font-size="14" text-anchor="middle">Number of Discs (n)</text>
+<line x1="50" y1="550" x2="750" y2="550" stroke="black" stroke-width="2"/>
+<line x1="50" y1="550" x2="50" y2="50" stroke="black" stroke-width="2"/>
+<polyline fill="none" stroke="#0366d6" stroke-width="3" points="78.0,550.0 106.0,550.0 134.0,550.0 162.0,550.0 190.0,550.0 218.0,550.0 246.0,550.0 274.0,550.0 302.0,550.0 330.0,550.0 358.0,550.0 386.0,549.9 414.0,549.9 442.0,549.8 470.0,549.5 498.0,549.0 526.0,548.0 554.0,546.1 582.0,542.2 610.0,534.4 638.0,518.8 666.0,487.5 694.0,425.0 722.0,300.0 750.0,50.0 " />
+<circle cx="78.0" cy="550.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="106.0" cy="550.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="134.0" cy="550.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="162.0" cy="550.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="190.0" cy="550.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="218.0" cy="550.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="246.0" cy="550.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="274.0" cy="550.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="302.0" cy="550.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="330.0" cy="550.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="358.0" cy="550.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="386.0" cy="549.9" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="414.0" cy="549.9" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="442.0" cy="549.8" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="470.0" cy="549.5" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="498.0" cy="549.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="526.0" cy="548.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="554.0" cy="546.1" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="582.0" cy="542.2" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="610.0" cy="534.4" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="638.0" cy="518.8" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="666.0" cy="487.5" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="694.0" cy="425.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="722.0" cy="300.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<circle cx="750.0" cy="50.0" r="4.5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<text x="86.0" y="542.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 78.0, 550.0)">
+(1, 1)</text>
+<text x="114.0" y="542.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 106.0, 550.0)">
+(2, 3)</text>
+<text x="142.0" y="542.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 134.0, 550.0)">
+(3, 7)</text>
+<text x="170.0" y="542.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 162.0, 550.0)">
+(4, 15)</text>
+<text x="198.0" y="542.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 190.0, 550.0)">
+(5, 31)</text>
+<text x="226.0" y="542.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 218.0, 550.0)">
+(6, 63)</text>
+<text x="254.0" y="542.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 246.0, 550.0)">
+(7, 127)</text>
+<text x="282.0" y="542.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 274.0, 550.0)">
+(8, 255)</text>
+<text x="310.0" y="542.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 302.0, 550.0)">
+(9, 511)</text>
+<text x="338.0" y="542.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 330.0, 550.0)">
+(10, 1023)</text>
+<text x="366.0" y="542.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 358.0, 550.0)">
+(11, 2047)</text>
+<text x="394.0" y="541.9" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 386.0, 549.9)">
+(12, 4095)</text>
+<text x="422.0" y="541.9" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 414.0, 549.9)">
+(13, 8191)</text>
+<text x="450.0" y="541.8" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 442.0, 549.8)">
+(14, 16383)</text>
+<text x="478.0" y="541.5" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 470.0, 549.5)">
+(15, 32767)</text>
+<text x="506.0" y="541.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 498.0, 549.0)">
+(16, 65535)</text>
+<text x="534.0" y="540.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 526.0, 548.0)">
+(17, 131071)</text>
+<text x="562.0" y="538.1" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 554.0, 546.1)">
+(18, 262143)</text>
+<text x="590.0" y="534.2" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 582.0, 542.2)">
+(19, 524287)</text>
+<text x="618.0" y="526.4" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 610.0, 534.4)">
+(20, 1048575)</text>
+<text x="646.0" y="510.8" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 638.0, 518.8)">
+(21, 2097151)</text>
+<text x="674.0" y="479.5" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 666.0, 487.5)">
+(22, 4194303)</text>
+<text x="702.0" y="417.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 694.0, 425.0)">
+(23, 8388607)</text>
+<text x="730.0" y="292.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 722.0, 300.0)">
+(24, 16777215)</text>
+<text x="758.0" y="42.0" font-family="Arial" font-size="10" fill="#333333" transform="rotate(-35, 750.0, 50.0)">
+(25, 33554431)</text>
+</svg>
