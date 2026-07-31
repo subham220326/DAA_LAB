@@ -60,6 +60,45 @@ The recurrence relation for the number of moves is **M(n) = 2M(n-1) + 1**, which
 
 ---
 
+
+### 🖥️ Terminal Output Snippet (n = 3 Disks)
+
+```text
+[INITIAL STATE]
+  ***           |               |       
+ *****          |               |       
+*******         |               |       
+-------         -------         -------
+ Peg A           Peg B           Peg C 
+
+[Step 1]: Moving Disk 1 from Peg A to Peg C
+   |            |               |       
+ *****          |               |       
+*******         |              ***      
+-------         -------         -------
+ Peg A           Peg B           Peg C 
+
+[Step 2]: Moving Disk 2 from Peg A to Peg B
+   |            |               |       
+   |            |               |       
+*******       *****            ***      
+-------         -------         -------
+ Peg A           Peg B           Peg C 
+
+[Step 3]: Moving Disk 1 from Peg C to Peg B
+   |            |               |       
+   |             ***            |       
+*******       *****             |       
+-------         -------         -------
+ Peg A           Peg B           Peg C 
+
+[Step 4]: Moving Disk 3 from Peg A to Peg C
+   |            |               |       
+   |             ***            |       
+   |          *****            *******  
+-------         -------         -------
+ Peg A           Peg B           Peg C
+
 --------------------------
 
 
