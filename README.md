@@ -18,16 +18,16 @@ Rather than just writing code that "works," these programs are engineered to pro
 
 ## 📂 Lab 01: Index of Programs
 
-Click on any folder/file in this repository to view the source code and individual detailed analytical reports.
+Click on any program title below to view the source code.
 
 | Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
 | :---: | :--- | :--- | :--- |
-| **01** | **[Order of Growth Analysis](./)** | Evaluating and ranking mathematical functions by growth rate. | $O(\log n)$ to $O(3^n)$ |
-| **02** | **[Coin Toss Simulation](./)** | Law of Large Numbers, algorithmic weighting, and probability. | $O(n)$ Trials |
-| **03** | **[Bubble Sort Performance](./)** | Unoptimized vs. Optimized early-exit sorting algorithms. | $\Omega(n)$ vs $O(n^2)$ |
-| **04** | **[Tower of Hanoi (Simulation)](./)** | Divide and conquer recursion and Stack state-tracking. | $O(2^n)$ Exponential |
-| **05** | **[Find the Partition Point](./)** | Searching sorted binary arrays: Linear vs. Binary search. | $O(n)$ vs $O(\log n)$ |
-| **06** | **[Element Uniqueness](./)** | The Space-Time Tradeoff: Nested loops vs. Hash arrays. | $O(n^2)$ vs $O(n)$ |
+| **01** | **[Order of Growth Analysis](console_growth.c)** | Evaluating and ranking mathematical functions by growth rate. | $O(\log n)$ to $O(3^n)$ |
+| **02** | **[Coin Toss Simulation](coin_toss.c)** | Law of Large Numbers, algorithmic weighting, and probability. | $O(n)$ Trials |
+| **03** | **[Bubble Sort Performance](bubble_sort.c)** | Unoptimized vs. Optimized early-exit sorting algorithms. | $\Omega(n)$ vs $O(n^2)$ |
+| **04** | **[Tower of Hanoi (Simulation)](hanoi_sim.c)** | Divide and conquer recursion and Stack state-tracking. | $O(2^n)$ Exponential |
+| **05** | **[Find the Partition Point](partition.c)** | Searching sorted binary arrays: Linear vs. Binary search. | $O(n)$ vs $O(\log n)$ |
+| **06** | **[Element Uniqueness](uniqueness.c)** | The Space-Time Tradeoff: Nested loops vs. Hash arrays. | $O(n^2)$ vs $O(n)$ |
 
 ---
 
