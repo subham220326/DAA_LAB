@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
+<rect width="100%" height="100%" fill="#f8f9fa"/>
+<text x="400" y="30" font-family="Arial" font-size="20" text-anchor="middle">Performance Analysis: Bubble Sort Comparisons</text>
+<text x="400" y="590" font-family="Arial" font-size="14" text-anchor="middle">Array Size (n)</text>
+<text x="-300" y="20" font-family="Arial" font-size="14" text-anchor="middle" transform="rotate(-90)">Number of Comparisons</text>
+<line x1="50" y1="550" x2="750" y2="550" stroke="black" stroke-width="2"/>
+<line x1="50" y1="550" x2="50" y2="50" stroke="black" stroke-width="2"/>
+<rect x="60" y="60" width="180" height="60" fill="white" stroke="black" stroke-width="1" />
+<line x1="70" y1="75" x2="100" y2="75" stroke="#d73a49" stroke-width="3"/>
+<text x="110" y="80" font-family="Arial" font-size="12">Unoptimized (Always completes)</text>
+<line x1="70" y1="100" x2="100" y2="100" stroke="#0366d6" stroke-width="3"/>
+<text x="110" y="105" font-family="Arial" font-size="12">Optimized (Early termination)</text>
+<polyline fill="none" stroke="#d73a49" stroke-width="3" points="120.0,545.5 190.0,530.8 260.0,506.1 330.0,471.2 400.0,426.3 470.0,371.2 540.0,306.1 610.0,230.8 680.0,145.5 750.0,50.0 " />
+<polyline fill="none" stroke="#0366d6" stroke-width="3" points="120.0,545.6 190.0,532.9 260.0,506.2 330.0,472.2 400.0,428.4 470.0,375.8 540.0,311.6 610.0,231.4 680.0,150.0 750.0,67.3 " />
+<circle cx="120.0" cy="545.5" r="5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<text x="120.0" y="535.5" font-family="Arial" font-size="11" fill="#d73a49" text-anchor="middle">45</text>
+<circle cx="120.0" cy="545.6" r="5" fill="#0366d6" stroke="white" stroke-width="1.5" />
+<text x="120.0" y="563.6" font-family="Arial" font-size="11" fill="#0366d6" text-anchor="middle">44</text>
+<text x="120.0" y="570" font-family="Arial" font-size="12" text-anchor="middle">10</text>
+<circle cx="190.0" cy="530.8" r="5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<text x="190.0" y="520.8" font-family="Arial" font-size="11" fill="#d73a49" text-anchor="middle">190</text>
+<circle cx="190.0" cy="532.9" r="5" fill="#0366d6" stroke="white" stroke-width="1.5" />
+<text x="190.0" y="550.9" font-family="Arial" font-size="11" fill="#0366d6" text-anchor="middle">169</text>
+<text x="190.0" y="570" font-family="Arial" font-size="12" text-anchor="middle">20</text>
+<circle cx="260.0" cy="506.1" r="5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<text x="260.0" y="496.1" font-family="Arial" font-size="11" fill="#d73a49" text-anchor="middle">435</text>
+<circle cx="260.0" cy="506.2" r="5" fill="#0366d6" stroke="white" stroke-width="1.5" />
+<text x="260.0" y="524.2" font-family="Arial" font-size="11" fill="#0366d6" text-anchor="middle">434</text>
+<text x="260.0" y="570" font-family="Arial" font-size="12" text-anchor="middle">30</text>
+<circle cx="330.0" cy="471.2" r="5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<text x="330.0" y="461.2" font-family="Arial" font-size="11" fill="#d73a49" text-anchor="middle">780</text>
+<circle cx="330.0" cy="472.2" r="5" fill="#0366d6" stroke="white" stroke-width="1.5" />
+<text x="330.0" y="490.2" font-family="Arial" font-size="11" fill="#0366d6" text-anchor="middle">770</text>
+<text x="330.0" y="570" font-family="Arial" font-size="12" text-anchor="middle">40</text>
+<circle cx="400.0" cy="426.3" r="5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<text x="400.0" y="416.3" font-family="Arial" font-size="11" fill="#d73a49" text-anchor="middle">1225</text>
+<circle cx="400.0" cy="428.4" r="5" fill="#0366d6" stroke="white" stroke-width="1.5" />
+<text x="400.0" y="446.4" font-family="Arial" font-size="11" fill="#0366d6" text-anchor="middle">1204</text>
+<text x="400.0" y="570" font-family="Arial" font-size="12" text-anchor="middle">50</text>
+<circle cx="470.0" cy="371.2" r="5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<text x="470.0" y="361.2" font-family="Arial" font-size="11" fill="#d73a49" text-anchor="middle">1770</text>
+<circle cx="470.0" cy="375.8" r="5" fill="#0366d6" stroke="white" stroke-width="1.5" />
+<text x="470.0" y="393.8" font-family="Arial" font-size="11" fill="#0366d6" text-anchor="middle">1725</text>
+<text x="470.0" y="570" font-family="Arial" font-size="12" text-anchor="middle">60</text>
+<circle cx="540.0" cy="306.1" r="5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<text x="540.0" y="296.1" font-family="Arial" font-size="11" fill="#d73a49" text-anchor="middle">2415</text>
+<circle cx="540.0" cy="311.6" r="5" fill="#0366d6" stroke="white" stroke-width="1.5" />
+<text x="540.0" y="329.6" font-family="Arial" font-size="11" fill="#0366d6" text-anchor="middle">2360</text>
+<text x="540.0" y="570" font-family="Arial" font-size="12" text-anchor="middle">70</text>
+<circle cx="610.0" cy="230.8" r="5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<text x="610.0" y="220.8" font-family="Arial" font-size="11" fill="#d73a49" text-anchor="middle">3160</text>
+<circle cx="610.0" cy="231.4" r="5" fill="#0366d6" stroke="white" stroke-width="1.5" />
+<text x="610.0" y="249.4" font-family="Arial" font-size="11" fill="#0366d6" text-anchor="middle">3154</text>
+<text x="610.0" y="570" font-family="Arial" font-size="12" text-anchor="middle">80</text>
+<circle cx="680.0" cy="145.5" r="5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<text x="680.0" y="135.5" font-family="Arial" font-size="11" fill="#d73a49" text-anchor="middle">4005</text>
+<circle cx="680.0" cy="150.0" r="5" fill="#0366d6" stroke="white" stroke-width="1.5" />
+<text x="680.0" y="168.0" font-family="Arial" font-size="11" fill="#0366d6" text-anchor="middle">3960</text>
+<text x="680.0" y="570" font-family="Arial" font-size="12" text-anchor="middle">90</text>
+<circle cx="750.0" cy="50.0" r="5" fill="#d73a49" stroke="white" stroke-width="1.5" />
+<text x="750.0" y="40.0" font-family="Arial" font-size="11" fill="#d73a49" text-anchor="middle">4950</text>
+<circle cx="750.0" cy="67.3" r="5" fill="#0366d6" stroke="white" stroke-width="1.5" />
+<text x="750.0" y="85.3" font-family="Arial" font-size="11" fill="#0366d6" text-anchor="middle">4779</text>
+<text x="750.0" y="570" font-family="Arial" font-size="12" text-anchor="middle">100</text>
+</svg>
