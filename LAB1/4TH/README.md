@@ -24,7 +24,7 @@ The puzzle is solved using a classic divide-and-conquer recursive approach:
 The recurrence relation for the number of moves is **M(n) = 2M(n-1) + 1**, which resolves to the mathematical formula **M(n) = 2^n - 1**.
 
 
-#3 THE OUTPUT OF THIS PROGRAM IS GIVEN BELOW AND I HAVE ATTACHED A SVG FILE FOR THE GRAPH TO DEMONSTRATE THE GROWTH OF FUNCTION WITH THE INPUT
+##  THE OUTPUT OF THIS PROGRAM IS GIVEN BELOW AND I HAVE ATTACHED A SVG FILE FOR THE GRAPH TO DEMONSTRATE THE GROWTH OF FUNCTION WITH THE INPUT
 
 
 ### 🧩 1. Step-by-Step Execution (n = 3 Disks)
