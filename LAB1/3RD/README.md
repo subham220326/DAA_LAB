@@ -20,7 +20,7 @@ Both algorithms rely on repeatedly swapping adjacent elements if they are in the
 1. **Unoptimized Bubble Sort:** Runs completely through its `O(n^2)` nested loops no matter what. It lacks the ability to recognize if the array is already sorted.
 2. **Optimized Bubble Sort:** Introduces a `swapped` boolean flag. If the inner loop finishes a full pass without making a single swap, the algorithm knows the array is fully sorted and breaks out early, saving unnecessary comparisons.
 
-#I HAVE GIVEN BELOW THE OUTPUT AND ATTACHED A SVG FILE TO SHOW THE COMPARISION
+## I HAVE GIVEN BELOW THE OUTPUT AND ATTACHED A SVG FILE TO SHOW THE COMPARISION
 
 ### 📊 Experimental Data Output
 
