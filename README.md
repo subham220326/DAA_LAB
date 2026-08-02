@@ -23,11 +23,11 @@ Click on any program title below to view the source code.
 | Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
 | :---: | :--- | :--- | :--- |
 | **01** | **[Order of Growth Analysis](LAB1/1ST/Know_Function.c)** | Evaluating and ranking mathematical functions by growth rate. | $O(\log n)$ to $O(3^n)$ |
-| **02** | **[Coin Toss Simulation](COIN_TOSS.c)** | Law of Large Numbers, algorithmic weighting, and probability. | $O(n)$ Trials |
-| **03** | **[Bubble Sort Performance](PerformanceOfBubble.c)** | Unoptimized vs. Optimized early-exit sorting algorithms. | $\Omega(n)$ vs $O(n^2)$ |
-| **04** | **[Tower of Hanoi (Simulation)](TowerOfHanoi.c)** | Divide and conquer recursion and Stack state-tracking. | $O(2^n)$ Exponential |
-| **05** | **[Find the Partition Point](PartitionPoint.c)** | Searching sorted binary arrays: Linear vs. Binary search. | $O(n)$ vs $O(\log n)$ |
-| **06** | **[Element Uniqueness](Element_Uniqueness.c)** | The Space-Time Tradeoff: Nested loops vs. Hash arrays. | $O(n^2)$ vs $O(n)$ |
+| **02** | **[Coin Toss Simulation](LAB1/2ND/COIN_TOSS.c)** | Law of Large Numbers, algorithmic weighting, and probability. | $O(n)$ Trials |
+| **03** | **[Bubble Sort Performance](LAB1/3RD/PerformanceOfBubble.c)** | Unoptimized vs. Optimized early-exit sorting algorithms. | $\Omega(n)$ vs $O(n^2)$ |
+| **04** | **[Tower of Hanoi (Simulation)](LAB1/4TH/TowerOfHanoi.c)** | Divide and conquer recursion and Stack state-tracking. | $O(2^n)$ Exponential |
+| **05** | **[Find the Partition Point](LAB1/5TH/PartitionPoint.c)** | Searching sorted binary arrays: Linear vs. Binary search. | $O(n)$ vs $O(\log n)$ |
+| **06** | **[Element Uniqueness](LAB1/6TH/Element_Uniqueness.c)** | The Space-Time Tradeoff: Nested loops vs. Hash arrays. | $O(n^2)$ vs $O(n)$ |
 
 ---
 
