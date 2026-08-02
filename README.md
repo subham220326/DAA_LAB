@@ -22,7 +22,7 @@ Click on any program title below to view the source code.
 
 | Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
 | :---: | :--- | :--- | :--- |
-| **01** | **[Order of Growth Analysis](Know_Function.c)** | Evaluating and ranking mathematical functions by growth rate. | $O(\log n)$ to $O(3^n)$ |
+| **01** | **[Order of Growth Analysis](LAB1/1ST/Know_Function.c)** | Evaluating and ranking mathematical functions by growth rate. | $O(\log n)$ to $O(3^n)$ |
 | **02** | **[Coin Toss Simulation](COIN_TOSS.c)** | Law of Large Numbers, algorithmic weighting, and probability. | $O(n)$ Trials |
 | **03** | **[Bubble Sort Performance](PerformanceOfBubble.c)** | Unoptimized vs. Optimized early-exit sorting algorithms. | $\Omega(n)$ vs $O(n^2)$ |
 | **04** | **[Tower of Hanoi (Simulation)](TowerOfHanoi.c)** | Divide and conquer recursion and Stack state-tracking. | $O(2^n)$ Exponential |
