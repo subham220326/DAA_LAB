@@ -22,24 +22,24 @@ Click on any program title below to view the source code.
 
 | Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
 | :---: | :--- | :--- | :--- |
-| **01** | **[Order of Growth Analysis](LAB1/1ST/Know_Function.c)** | Evaluating and ranking mathematical functions by growth rate. | $O(\log n)$ to $O(3^n)$ |
-| **02** | **[Coin Toss Simulation](LAB1/2ND/COIN_TOSS.c)** | Law of Large Numbers, algorithmic weighting, and probability. | $O(n)$ Trials |
-| **03** | **[Bubble Sort Performance](LAB1/3RD/PerformanceOfBubble.c)** | Unoptimized vs. Optimized early-exit sorting algorithms. | $\Omega(n)$ vs $O(n^2)$ |
-| **04** | **[Tower of Hanoi (Simulation)](LAB1/4TH/TowerOfHanoi.c)** | Divide and conquer recursion and Stack state-tracking. | $O(2^n)$ Exponential |
-| **05** | **[Find the Partition Point](LAB1/5TH/PartitionPoint.c)** | Searching sorted binary arrays: Linear vs. Binary search. | $O(n)$ vs $O(\log n)$ |
-| **06** | **[Element Uniqueness](LAB1/6TH/Element_Uniqueness.c)** | The Space-Time Tradeoff: Nested loops vs. Hash arrays. | $O(n^2)$ vs $O(n)$ |
+| **01** | **[Order of Growth Analysis](LAB1/1ST/Know_Function.c)** | Evaluating and ranking mathematical functions by growth rate. | O(log n) to O(3^n) |
+| **02** | **[Coin Toss Simulation](LAB1/2ND/COIN_TOSS.c)** | Law of Large Numbers, algorithmic weighting, and probability. | O(n) Trials |
+| **03** | **[Bubble Sort Performance](LAB1/3RD/PerformanceOfBubble.c)** | Unoptimized vs. Optimized early-exit sorting algorithms. | Omega(n) vs O(n^2) |
+| **04** | **[Tower of Hanoi (Simulation)](LAB1/4TH/TowerOfHanoi.c)** | Divide and conquer recursion and Stack state-tracking. | O(2^n) Exponential |
+| **05** | **[Find the Partition Point](LAB1/5TH/PartitionPoint.c)** | Searching sorted binary arrays: Linear vs. Binary search. | O(n) vs O(log n) |
+| **06** | **[Element Uniqueness](LAB1/6TH/Element_Uniqueness.c)** | The Space-Time Tradeoff: Nested loops vs. Hash arrays. | O(n^2) vs O(n) |
 
 ---
 
 ## 📂 Lab 02: Index of Programs
 
-Click on any program title below to view the source code[cite: 1].
+Click on any program title below to view the source code.
 
 | Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
 | :---: | :--- | :--- | :--- |
-| **01** | **[Dictionary Operations Analysis](LAB2/1ST/Dictionary.c)** | Empirical performance validation of 7 dictionary operations across 6 distinct underlying data structures[cite: 1]. | Array vs Linked List ($\mathcal{O}(1)$ to $\mathcal{O}(n)$)[cite: 1] |
-| **02** | **[Modified Merge Sort (3-Way)](LAB2/2ND/ThreeWayMergeSort.c)** | Divide and conquer by thirds with a three-way merge subroutine and growth-rate plotting[cite: 1]. | $\mathcal{O}(n \log_3 n)$[cite: 1] |
-| **03** | **[Merging K Sorted Arrays](LAB2/3RD/MergeKSortedArrays.c)** | Comparison of sequential merging (Method 1) vs. pairwise divide-and-conquer merging (Method 2)[cite: 1]. | $\mathcal{O}(kn^2)$ vs $\mathcal{O}(kn \log k)$[cite: 1] |
+| **01** | **[Dictionary Operations Analysis](LAB2/1ST/Dictionary.c)** | Empirical performance validation of 7 dictionary operations across 6 distinct underlying data structures. | Array vs Linked List (O(1) to O(n)) |
+| **02** | **[Modified Merge Sort (3-Way)](LAB2/2ND/ThreeWayMergeSort.c)** | Divide and conquer by thirds with a three-way merge subroutine and growth-rate plotting. | O(n log3 n) |
+| **03** | **[Merging K Sorted Arrays](LAB2/3RD/MergeKSortedArrays.c)** | Comparison of sequential merging (Method 1) vs. pairwise divide-and-conquer merging (Method 2). | O(kn^2) vs O(kn log k) |
 
 ---
 
