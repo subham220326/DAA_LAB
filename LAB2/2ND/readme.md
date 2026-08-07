@@ -5,9 +5,9 @@ __________________________________
 
 > **Institution:** IIIT BHUBANESWAR  
 > **Course:** Design and Analysis of Algorithm (DAA), Lab-02  
-> **Program:** BTech CSE-B, 3rd Semester
-> **Instructor:** Dr. Ajaya Kumar Dash
-> **Date:** 07 August 2026  
+> **Program:** BTech CSE-B, 3rd Semester  
+> **Instructor:** Dr. Ajaya Kumar Dash  
+> **Date:** 07 August 2026 
 > **Student Name:** SUBHAM MOHANTY | **Roll No:** B425058  
 
 ---
@@ -25,6 +25,7 @@ This program implements and compares traditional Merge Sort with a modified vari
 ---
 
 # I HAVE ATTACHED MY CODE AND SVG FILE TO KNOW MORE ABOUT DIFFERENT MERGE SORT WORKING AND COMPARISON BETWEEN 2 MERGE SORTS
+
 
 ## 💻 Simulated Console Output & Execution Time Comparison
 
@@ -44,4 +45,3 @@ SORTING PERFORMANCE BENCHMARK: STANDARD VS 3-WAY
 [RUN] Executing Modified 3-Way Merge Sort...  Time taken: 19.30 ms
 [CHECK] Both arrays successfully verified as sorted.
 ==================================================
-
