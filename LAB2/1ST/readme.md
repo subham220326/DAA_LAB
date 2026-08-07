@@ -29,6 +29,8 @@ This program evaluates and validates the asymptotic worst-case running times for
 | **Doubly Linked Sorted List**  | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ (if pointer given) | $\mathcal{O}(1)$ (head/tail tracked) | $\mathcal{O}(1)$ (via prev/next pointer) |
 
 ---
+# I HAVE ATTACHED MY CODE AND SVG FILE TO KNOW MORE ABOUT RISE IN FUNCTION WITH RESPECT TO RISE IN INPUT
+
 
 ## 💻 Simulated Console Output & Empirical Benchmarks
 
