@@ -7,7 +7,7 @@ __________________________________
 > **Course:** Design and Analysis of Algorithm (DAA), Lab-02  
 > **Program:** BTech CSE-B, 3rd Semester  
 > **Instructor:** Dr. Ajaya Kumar Dash  
-> **Date:** 07 August 2026[cite: 1]  
+> **Date:** 07 August 2026
 > **Student Name:** SUBHAM MOHANTY | **Roll No:** B425058  
 
 ---
