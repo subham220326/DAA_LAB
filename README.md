@@ -1,16 +1,16 @@
 # 🚀 Design and Analysis of Algorithms (DAA) - Lab Portfolio
 
 > **Institution:** IIIT BHUBANESWAR  
-> **Course:** Design and Analysis of Algorithm (DAA) - Lab 01  
+> **Course:** Design and Analysis of Algorithm (DAA) - Lab Portfolio  
 > **Program:** BTech CSE-B, 3rd Semester  
 > **Instructor:** Dr. Ajaya Kumar Dash  
->  **Date:** July 2026  
+> **Date:** August 2026  
 > **Student Name:** SUBHAM MOHANTY | **Roll No:** B425058
 
 ---
 
 ## 📖 About This Repository
-Welcome to my DAA Lab portfolio! This repository contains all the C programming assignments for **Lab 01**, focused on the foundational concepts of algorithmic design, asymptotic time complexity, and performance analysis. 
+Welcome to my DAA Lab portfolio! This repository contains all the C programming assignments for **Lab 01 and Lab 02**, focused on the foundational concepts of algorithmic design, asymptotic time complexity, and performance analysis. 
 
 Rather than just writing code that "works," these programs are engineered to prove mathematical concepts through empirical data generation, direct performance comparisons, and step-by-step visual simulations.
 
@@ -28,6 +28,18 @@ Click on any program title below to view the source code.
 | **04** | **[Tower of Hanoi (Simulation)](LAB1/4TH/TowerOfHanoi.c)** | Divide and conquer recursion and Stack state-tracking. | $O(2^n)$ Exponential |
 | **05** | **[Find the Partition Point](LAB1/5TH/PartitionPoint.c)** | Searching sorted binary arrays: Linear vs. Binary search. | $O(n)$ vs $O(\log n)$ |
 | **06** | **[Element Uniqueness](LAB1/6TH/Element_Uniqueness.c)** | The Space-Time Tradeoff: Nested loops vs. Hash arrays. | $O(n^2)$ vs $O(n)$ |
+
+---
+
+## 📂 Lab 02: Index of Programs
+
+Click on any program title below to view the source code[cite: 1].
+
+| Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
+| :---: | :--- | :--- | :--- |
+| **01** | **[Dictionary Operations Analysis](LAB2/1ST/Dictionary.c)** | Empirical performance validation of 7 dictionary operations across 6 distinct underlying data structures[cite: 1]. | Array vs Linked List ($\mathcal{O}(1)$ to $\mathcal{O}(n)$)[cite: 1] |
+| **02** | **[Modified Merge Sort (3-Way)](LAB2/2ND/ThreeWayMergeSort.c)** | Divide and conquer by thirds with a three-way merge subroutine and growth-rate plotting[cite: 1]. | $\mathcal{O}(n \log_3 n)$[cite: 1] |
+| **03** | **[Merging K Sorted Arrays](LAB2/3RD/MergeKSortedArrays.c)** | Comparison of sequential merging (Method 1) vs. pairwise divide-and-conquer merging (Method 2)[cite: 1]. | $\mathcal{O}(kn^2)$ vs $\mathcal{O}(kn \log k)$[cite: 1] |
 
 ---
 
