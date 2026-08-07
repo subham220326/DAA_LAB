@@ -1,4 +1,4 @@
-# 📈 DAA Lab 02 - Q1: Dictionary Operations Analysis
+# 📈 DAA Lab 02 
 __________________________________
 Q1: Dictionary Operations & Data Structure Analysis
 __________________________________  
