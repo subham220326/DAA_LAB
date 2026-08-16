@@ -27,9 +27,9 @@ This program implements and compares traditional Merge Sort with a modified vari
 # I HAVE ATTACHED MY CODE AND SVG FILE TO KNOW MORE ABOUT DIFFERENT MERGE SORT WORKING AND COMPARISON BETWEEN 2 MERGE SORTS
 
 
-## 💻 Simulated Console Output & Execution Time Comparison
+### 💻 Simulated Console Output & Execution Time Comparison
 
-| Input Size ($n$) | Standard Merge Sort ($\mathcal{O}(n \log n)$) | Modified 3-Way Merge Sort ($\mathcal{O}(n \log_3 n)$) |
+| Input Size (n) | Standard Merge Sort `O(n log n)` | Modified 3-Way Merge Sort `O(n log3 n)` |
 | :--- | :--- | :--- |
 | **10,000** | 1.42 ms | 1.58 ms |
 | **50,000** | 8.12 ms | 8.95 ms |
