@@ -49,12 +49,12 @@ Click on any program title below to view the source code.
 
 | Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
 | :---: | :--- | :--- | :--- |
-| **01** | **[Binary vs Ternary Search](LAB3/1ST/BinaryVsTernary.c)** | Comparing division by halves vs division by thirds to search a sorted list[cite: 1]. | $O(\log_2 n)$ vs $O(\log_3 n)$ |
-| **02** | **[Defective Coin Finder](LAB3/2ND/DefectiveCoin.c)** | Divide and conquer algorithm utilizing a balance weighing scale to identify a lighter defective coin[cite: 1]. | $O(\log_2 n)$[cite: 1] |
-| **03** | **[Max and Min (D&C)](LAB3/3RD/MaxMinDC.c)** | Divide and conquer approach to locate maximum and minimum array elements[cite: 1]. | Bounded by $\frac{3n}{2}$[cite: 1] |
-| **04** | **[Strassen's Matrix Multiplication](LAB3/4TH/StrassenMatrix.c)** | Multiplying two $n \times n$ square matrices utilizing Strassen's method[cite: 1]. | $O(n^{2.81})$ |
-| **05** | **[Special Pattern Matrix Mult](LAB3/5TH/SpecialMatrixMult.c)** | Divide-and-conquer multiplication of matrices with identical diagonal and off-diagonal recursive blocks[cite: 1]. | $O(n^2)$[cite: 1] |
-| **06** | **[Selection Sort & Loop Invariants](LAB3/6TH/SelectionSortInvariant.c)** | Proving sorting correctness using initialisation, maintenance, and termination loop invariants[cite: 1]. | $\Theta(n^2)$[cite: 1] |
+| **01** | **[Binary vs Ternary Search](LAB3/1ST/BinaryVsTernary.c)** | Comparing division by halves vs division by thirds to search a sorted list. | $O(\log_2 n)$ vs $O(\log_3 n)$ |
+| **02** | **[Defective Coin Finder](LAB3/2ND/DefectiveCoin.c)** | Divide and conquer algorithm utilizing a balance weighing scale to identify a lighter defective coin. | $O(\log_2 n)$ |
+| **03** | **[Max and Min (D&C)](LAB3/3RD/MaxMinDC.c)** | Divide and conquer approach to locate maximum and minimum array elements. | Bounded by $\frac{3n}{2}$ |
+| **04** | **[Strassen's Matrix Multiplication](LAB3/4TH/StrassenMatrix.c)** | Multiplying two $n \times n$ square matrices utilizing Strassen's method. | $O(n^{2.81})$ |
+| **05** | **[Special Pattern Matrix Mult](LAB3/5TH/SpecialMatrixMult.c)** | Divide-and-conquer multiplication of matrices with identical diagonal and off-diagonal recursive blocks. | $O(n^2)$ |
+| **06** | **[Selection Sort & Loop Invariants](LAB3/6TH/SelectionSortInvariant.c)** | Proving sorting correctness using initialisation, maintenance, and termination loop invariants. | $\Theta(n^2)$ |
 
 ---
 
