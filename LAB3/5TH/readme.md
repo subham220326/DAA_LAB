@@ -7,15 +7,20 @@ __________________________________
 
 ## 📌 Overview
 This repository contains the C programming implementation for **Question 5** of our DAA Lab-03 assignment.
-The objective is to implement a divide-and-conquer $O(n^2)$ algorithm to multiply two $n \times n$ matrices that share a specific recursive pattern[cite: 1]. When divided into four equal-sized blocks, the two diagonal blocks are identical, and the two off-diagonal blocks are identical[cite: 1].
+The objective is to implement a divide-and-conquer $O(n^2)$ algorithm to multiply two $n \times n$ matrices that share a specific recursive pattern. When divided into four equal-sized blocks, the two diagonal blocks are identical, and the two off-diagonal blocks are identical.
 
 ## ⚙️ Exploiting the Pattern for $O(n^2)$
 
-The special matrix structure is defined as: $M = \begin{bmatrix} M_1 & M_2 \\ M_2 & M_1 \end{bmatrix}$[cite: 1].
+The special matrix structure is defined as:  
+**M =** `[ [M1, M2], [M2, M1] ]`
 
-1. **Standard Multiplication:** $A \times B = \begin{bmatrix} A_1 B_1 + A_2 B_2 & A_1 B_2 + A_2 B_1 \\ A_2 B_1 + A_1 B_2 & A_2 B_2 + A_1 B_1 \end{bmatrix}$
-2. **Pattern Recognition:** Because the top-right block is identical to the bottom-left, and the top-left is identical to the bottom-right, we only need to compute two unique blocks: $C_1 = A_1 B_1 + A_2 B_2$ and $C_2 = A_1 B_2 + A_2 B_1$.
-3. **Complexity Reduction:** This reduces the recurrence relation to $T(n) = 4T(n/2) + O(n^2)$, which yields a strict $O(n^2)$ time complexity by Master Theorem.
+1. **Standard Multiplication:**  
+   **A × B =**  
+   `[ [A1·B1 + A2·B2,  A1·B2 + A2·B1],`  
+   `  [A2·B1 + A1·B2,  A2·B2 + A1·B1] ]`
+
+2. **Pattern Recognition:** Because the top-right block is identical to the bottom-left, and the top-left is identical to the bottom-right, we only need to compute two unique blocks: `C1 = A1·B1 + A2·B2` and `C2 = A1·B2 + A2·B1`.
+3. **Complexity Reduction:** This reduces the recurrence relation to $T(n) = 4T(n/2) + O(n^2)$, which yields a strict $O(n^2)$ time complexity by the Master Theorem.
 
 -------------------------------------------
 
