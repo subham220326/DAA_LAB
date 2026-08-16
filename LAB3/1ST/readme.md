@@ -39,4 +39,4 @@ For $n=100$, Ternary takes max 10 comparisons.
 ___________________________________________________________
 > **Course:** Design and Analysis of Algorithm (DAA), Lab-03  
 > **Instructor:** Dr. Ajaya Kumar Dash  
-> **Date:** August 2026
+> **Date:** 14 August 2026
