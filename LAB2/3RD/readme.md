@@ -29,13 +29,13 @@ Given $k$ sorted arrays, each containing $n$ elements, this program validates an
 
 ---
 
-## 💻 Simulated Console Output & Execution Comparison
+### 💻 Simulated Console Output & Execution Comparison
 
-| Parameters ($k$ arrays, $n$ elements) | Method 1: Sequential ($\mathcal{O}(k^2 n)$) | Method 2: Divide & Conquer ($\mathcal{O}(kn \log k)$) |
+| Parameters (`k` arrays, `n` elements) | Method 1: Sequential `O(k^2 n)` | Method 2: Divide & Conquer `O(kn log k)` |
 | :--- | :--- | :--- |
-| **$k = 10, n = 1000$** | 2.15 ms | 0.85 ms |
-| **$k = 50, n = 1000$** | 48.60 ms | 5.20 ms |
-| **$k = 100, n = 1000$** | 194.30 ms | 11.40 ms |
+| **`k = 10`, `n = 1000`** | 2.15 ms | 0.85 ms |
+| **`k = 50`, `n = 1000`** | 48.60 ms | 5.20 ms |
+| **`k = 100`, `n = 1000`** | 194.30 ms | 11.40 ms |
 
 ```text
 ==================================================
