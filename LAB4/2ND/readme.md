@@ -37,7 +37,7 @@ Note: Sorting both sets requires $\approx 2 \times (5 \log_2 5)$ operations; the
 ___________________________________________________________
 > **Course:** Design and Analysis of Algorithm (DAA), Lab-04  
 > **Instructor:** Dr. Ajaya Kumar Dash
-> **Date:** 18 August 2026
+> **Date:** 21 August 2026
 
 ---
 ---
