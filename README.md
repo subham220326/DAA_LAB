@@ -64,7 +64,7 @@ Click on any program title below to view the source code.
 
 | Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
 | :---: | :--- | :--- | :--- |
-| **01** | **[Stable Color Partitioning](LAB4/1ST/ColorSort.c)** | Stable 3-color sorting of pre-sorted numeric pairs using counting sort/bucket partitioning. | $O(n)$[cite: 1] |
+| **01** | **[Stable Color Partitioning](LAB4/1ST/ColorSort.c)** | Stable 3-color sorting of pre-sorted numeric pairs using counting sort/bucket partitioning. | $O(n)$ |
 | **02** | **[Target Sum Pair in Two Sets](LAB4/2ND/TwoSetSum.c)** | Finding an element pair across two disjoint sets $S_1, S_2$ that sums to $x$ via sorting and two-pointer/binary search. | $O(n \log n)$ |
 | **03** | **[K-Sum Subproblem Finder](LAB4/3RD/KSumFinder.c)** | Determining whether any combination of $k$ distinct elements in set $S$ sums to target $T$. | $O(n^{k-1} \log n)$ |
 | **04** | **[Peak Party Attendees](LAB4/4TH/MaxPartyCrowd.c)** | Sweep-line event scheduling to locate the timestamp of maximum simultaneous party attendees. | $O(n \log n)$ |
