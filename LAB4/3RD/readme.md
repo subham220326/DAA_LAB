@@ -35,7 +35,7 @@ Note: For $k=3$, generating pairs takes $O(n^2)$ and searching for the 3rd eleme
 ___________________________________________________________
 > **Course:** Design and Analysis of Algorithm (DAA), Lab-04 
 > **Instructor:** Dr. Ajaya Kumar Dash  
-> **Date:** 18 August 2026
+> **Date:** 21 August 2026
 
 ---
 ---
