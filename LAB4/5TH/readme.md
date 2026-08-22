@@ -38,7 +38,7 @@ Note: Intervals $(1,3)$ and $(2,6)$ merge to $(1,6)$, while $(7,18)$ and $(8,10)
 ___________________________________________________________
 > **Course:** Design and Analysis of Algorithm (DAA), Lab-04  
 > **Instructor:** Dr. Ajaya Kumar Dash  
-> **Date:** 18 August 2026
+> **Date:** 21 August 2026
 
 ---
 ---
