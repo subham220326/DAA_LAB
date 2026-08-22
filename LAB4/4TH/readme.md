@@ -35,7 +35,7 @@ Note: At timestamp 3, persons 1, 2, and 4 are inside the party simultaneously.
 ___________________________________________________________
 > **Course:** Design and Analysis of Algorithm (DAA), Lab-04  
 > **Instructor:** Dr. Ajaya Kumar Dash
-> **Date:** 18 August 2026
+> **Date:** 21 August 2026
 
 ---
 ---
