@@ -1,16 +1,15 @@
 # 🚀 Design and Analysis of Algorithms (DAA) - Lab Portfolio
 
 > **Institution:** IIIT BHUBANESWAR  
-> **Course:** Design and Analysis of Algorithm (DAA) - Lab Portfolio[cite: 1]  
-> **Program:** BTech CSE-B, 3rd Semester[cite: 1]  
-> **Instructor:** Dr. Ajaya Kumar Dash[cite: 1]  
-> **Date:** August 2026[cite: 1]  
+> **Course:** Design and Analysis of Algorithm (DAA) - Lab Portfolio  
+> **Program:** BTech CSE-B, 3rd Semester  
+> **Instructor:** Dr. Ajaya Kumar Dash   
 > **Student Name:** SUBHAM MOHANTY | **Roll No:** B425058
 
 ---
 
 ## 📖 About This Repository
-Welcome to my DAA Lab portfolio! This repository contains all the C programming assignments for **Lab 01, Lab 02, Lab 03, and Lab 04**, focused on foundational algorithmic design, asymptotic time complexity, and performance analysis.
+Welcome to my DAA Lab portfolio! This repository contains all the C programming assignments for **Lab 01, Lab 02, Lab 03, Lab 04, and Lab 05**, focused on foundational algorithmic design, asymptotic time complexity, and performance analysis.
 
 Rather than just writing code that "works," these programs are engineered to prove mathematical concepts through empirical data generation, direct performance comparisons, and step-by-step visual simulations.
 
@@ -70,6 +69,19 @@ Click on any program title below to view the source code.
 | **04** | **[Peak Party Attendees](LAB4/4TH/4thCamera.c)** | Sweep-line event scheduling to locate the timestamp of maximum simultaneous party attendees. | $O(n \log n)$ |
 | **05** | **[Merge Overlapping Intervals](LAB4/5TH/5thMergeOverlap.c)** | Sorting intervals by start coordinate and consolidating overlapping contiguous intervals. | $O(n \log n)$ |
 | **06** | **[Max Interval Overlap Point](LAB4/6TH/6thLargestOnInterval.c)** | Event-based sweep-line algorithm to find a point $p$ contained within the maximum number of closed intervals. | $O(n \log n)$ |
+
+---
+
+## 📂 Lab 05: Index of Programs
+
+Click on any program title below to view the source code.
+
+| Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
+| :---: | :--- | :--- | :--- |
+| **01** | **[Find Median (Quickselect)](LAB5/1ST/1STMedian.c)** | Order-statistic selection of median element without sorting via pruned partitioning. | $O(n)$ Avg vs $O(n^2)$ Worst |
+| **02** | **[K-th Smallest Element](LAB5/2ND/2NDKthSmallest.c)** | Generalized Quickselect to locate the $K$-th smallest element in linear expected time. | $O(n)$ Avg vs $O(n^2)$ Worst |
+| **03** | **[Quick Sort (File Stream)](LAB5/3RD/3RDQuickSort.c)** | Divide-and-conquer randomized element generation, file I/O persistence, and recursive partitioning. | $O(n \log n)$ Avg vs $O(n^2)$ Worst |
+| **04** | **[Heap Sort (File Stream)](LAB5/4TH/4THHeapSort.c)** | In-place binary Max-Heap construction and iterative sift-down sorting on file records. | $O(n \log n)$ Guaranteed |
 
 ---
 
