@@ -36,5 +36,6 @@ The objective is to compute the $n$-th Fibonacci number using a bottom-up Dynami
 
 ---
 
-> **Course:** Design and Analysis of Algorithms (DAA), Dynamic Programming  
-> **Topic:** 1D Dynamic Programming Tabulation
+> **Course:** Design and Analysis of Algorithms (DAA), Lab-06  
+> **Instructor:** Dr. Ajaya Kumar Dash  
+> **Date:** 31 August 2026
