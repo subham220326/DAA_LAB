@@ -6,7 +6,7 @@ __________________________________
 ---
 
 ## 📌 Overview
-This repository contains the C programming implementation and complexity analysis for **Question 2** of Lab-06.
+This repository contains the C programming implementation and complexity analysis for **Question 6** of Lab-06.
 The objective is to implement foundational linear algebraic operations on an $n \times n$ square matrix, covering basic matrix algebra, triangular reductions, and iterative spectral solvers.
 
 ## ⚙️ Algorithmic Logic & Justification
