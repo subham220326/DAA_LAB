@@ -6,7 +6,7 @@ __________________________________
 ---
 
 ## 📌 Overview
-This repository contains the C programming implementation and complexity analysis for **Question 1** of Lab-06.
+This repository contains the C programming implementation and complexity analysis for **Question 5** of Lab-06.
 The objective is to implement and analyze 9 fundamental array operations on an unsorted input sequence of $n$ integer elements.
 
 ## ⚙️ Algorithmic Logic & Justification
