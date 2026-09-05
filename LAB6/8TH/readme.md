@@ -1,30 +1,29 @@
-# 📈 DAA Lab 06: Q3 — Fast Convolution via FFT
+# 📈 DAA Lab 06: Q8 — Sorting Permutations via Reversal
 __________________________________
-Q3: Vector Discrete Linear Convolution using Divide-and-Conquer FFT
+Q8: Subsequence Reversal Sorting with $O(n \log^2 n)$ Cost
 __________________________________
 
 ---
 
 ## 📌 Overview
-This repository contains the C programming implementation and complexity analysis for **Question 3** of Lab-06.
-The objective is to compute the discrete linear convolution $C[k] = \sum_{j=0}^{m-1} A[j]B[k-j]$ of vectors $A$ and $B$ (lengths $m$ and $n$, with $n \ge m$) using an $O(n \log n)$ divide-and-conquer strategy.
+This repository contains the C programming implementation, mathematical proof, and complexity analysis for **Question 8** of Lab-06.
+Given a permutation $p$ of integers $\{1, \dots, n\}$, the only valid mutation is `reverse(p, i, j)` with cost $|j - i| + 1$. The objective is to prove $O(n)$ bounds on the number of reversals and implement an $O(n \log^2 n)$ total cost sorting algorithm.
 
 ## ⚙️ Algorithmic Logic & Justification
 
-1. **Polynomial Equivalence:** Convolution is mathematically equivalent to polynomial multiplication: $C(x) = A(x) \cdot B(x)$.
-2. **Padding:** Both vectors are zero-padded to length $N$, where $N$ is the smallest power of 2 such that $N \ge n + m - 1$.
-3. **Cooley-Tukey Divide-and-Conquer FFT:** Recursively split inputs into even and odd index subsequences, evaluating polynomials at roots of unity in $O(N \log N)$.
-4. **Pointwise Multiplication & IFFT:** Multiply point evaluations in $O(N)$ and apply Inverse FFT to retrieve the convolution coefficients.
+1. **Reversal Count Proof:** Locating element $i$ and calling `reverse(p, i, k)` places $i$ into its correct index in at most 1 reversal. Over $n$ elements, sorting requires at most $n-1 = \mathbf{O(n)}$ reversals.
+2. **Block Swap Routine:** Swapping two contiguous subarrays $A$ and $B$ is accomplished via 3 reversals: $\text{reverse}(A)$, $\text{reverse}(B)$, $\text{reverse}(AB)$, incurring a cost of $2(|A| + |B|)$.
+3. **Divide-and-Conquer In-Place Merge:** Recursively sort left and right halves. Merge in-place using binary search to split subarrays and exchange segments via block swaps.
+4. **Recurrence Relation:**
+   $$T(n) = 2T(n/2) + O(n \log n) \implies \mathbf{O(n \log^2 n)}$$
 
 ---
 
 ## 📊 Complexity Analysis
 
-- **FFT Transformation Time:** $T(N) = 2T(N/2) + O(N) \implies \mathbf{O(n \log n)}$.
-- **Pointwise Multiplication Time:** **$O(N) = O(n)$**.
-- **IFFT Recovery Time:** **$O(n \log n)$**.
-- **Total Time Complexity:** **$O(n \log n)$** (Outperforms direct $O(n \cdot m)$ convolution).
-- **Auxiliary Space Complexity:** **$O(n)$** (Buffers for complex FFT arrays).
+- **Reversal Operation Count:** **$O(n)$** operations.
+- **Total Reversal Cost:** **$O(n \log^2 n)$** (Derived via Master Theorem Case 2).
+- **Auxiliary Space Complexity:** **$O(\log n)$** (Recursion stack frames).
 
 -------------------------------------------
 
@@ -32,12 +31,12 @@ The objective is to compute the discrete linear convolution $C[k] = \sum_{j=0}^{
 
 ### Performance Summary
 
-| Input Vectors | Vector Lengths | Output Size ($n+m-1$) | Time Complexity | Compilation Flag |
+| Input Permutation | Number of Elements ($n$) | Reversal Primitive Cost | Reversal Bound | Total Cost Complexity |
 | :--- | :--- | :--- | :--- | :--- |
-| `A = [1, 2, 3]`, `B = [4, 5, 6, 7]` | $m = 3, n = 4$ | $6$ Elements | **$O(n \log n)$** | `-lm` (Math library) |
+| `p = [1, 4, 3, 2, 5]` | $n = 5$ | $|j - i| + 1$ | $O(n)$ reversals | **$O(n \log^2 n)$** |
 
 ---
 
 > **Course:** Design and Analysis of Algorithms (DAA), Lab-06  
-> **Instructor:** Dr. Ajaya Kumar Dash 
+> **Instructor:** Dr. Ajaya Kumar Dash  
 > **Date:** 31 August 2026
