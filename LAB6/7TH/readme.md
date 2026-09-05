@@ -6,7 +6,7 @@ __________________________________
 ---
 
 ## 📌 Overview
-This repository contains the C programming implementation and complexity analysis for **Question 3** of Lab-06.
+This repository contains the C programming implementation and complexity analysis for **Question 7** of Lab-06.
 The objective is to compute the discrete linear convolution $C[k] = \sum_{j=0}^{m-1} A[j]B[k-j]$ of vectors $A$ and $B$ (lengths $m$ and $n$, with $n \ge m$) using an $O(n \log n)$ divide-and-conquer strategy.
 
 ## ⚙️ Algorithmic Logic & Justification
