@@ -91,14 +91,14 @@ Click on any program title below to view the source code.
 
 | Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
 | :---: | :--- | :--- | :--- |
-| **01** | **[1D Array Operations & Analysis](LAB6/1ST/1DArrayOperations.c)** | Comprehensive suite of 9 array operations: order statistics, duplicate removal, and two-pointer pivot partitioning. | $O(n)$ to $O(n \log n)$ |
-| **02** | **[2D Matrix Algebra & Solvers](LAB6/2ND/MatrixOperations.c)** | Matrix algebra, in-place transposition, Gaussian elimination for determinants, and power iteration for eigenpairs. | $O(n^2)$ to $O(n^3)$ |
-| **03** | **[FFT Fast Vector Convolution](LAB6/3RD/FastConvolutionFFT.c)** | Discrete linear vector convolution using divide-and-conquer Cooley-Tukey Fast Fourier Transform (FFT). | $O(n \log n)$ |
-| **04** | **[Sorting via Subsequence Reversals](LAB6/4TH/SortByReversal.c)** | Permutation sorting restricted strictly to subsequence reversals with $O(n)$ bounds and in-place divide-and-conquer merge. | $O(n \log^2 n)$ Cost |
-| **05** | **[nth Fibonacci Number (DP)](LAB6/5TH/FibonacciDP.c)** | Overlapping subproblem elimination via bottom-up linear dynamic programming tabulation. | $O(n)$ Time, $O(n)$ Space |
-| **06** | **[0/1 Knapsack Problem (DP)](LAB6/6TH/Knapsack01DP.c)** | Pseudo-polynomial 2D dynamic programming for 0/1 item subset profit maximization. | $O(n \cdot W)$ Time & Space |
-| **07** | **[Longest Common Subsequence (DP)](LAB6/7TH/LongestCommonSubsequence.c)** | 2D dynamic programming grid construction and backtrack path recovery for string sequence alignment. | $O(m \cdot n)$ Time & Space |
-| **08** | **[Matrix Chain Multiplication (DP)](LAB6/8TH/MatrixChainMultiplication.c)** | Interval dynamic programming optimizing associative scalar multiplication sequence order. | $O(N^3)$ Time, $O(N^2)$ Space |
+| **01** | **[1D Array Operations & Analysis](LAB6/1ST/Fibonnaci.c)** | Comprehensive suite of 9 array operations: order statistics, duplicate removal, and two-pointer pivot partitioning. | $O(n)$ to $O(n \log n)$ |
+| **02** | **[2D Matrix Algebra & Solvers](LAB6/2ND/KnapSack.c)** | Matrix algebra, in-place transposition, Gaussian elimination for determinants, and power iteration for eigenpairs. | $O(n^2)$ to $O(n^3)$ |
+| **03** | **[FFT Fast Vector Convolution](LAB6/3RD/LCS.c)** | Discrete linear vector convolution using divide-and-conquer Cooley-Tukey Fast Fourier Transform (FFT). | $O(n \log n)$ |
+| **04** | **[Sorting via Subsequence Reversals](LAB6/4TH/MCM.c)** | Permutation sorting restricted strictly to subsequence reversals with $O(n)$ bounds and in-place divide-and-conquer merge. | $O(n \log^2 n)$ Cost |
+| **05** | **[nth Fibonacci Number (DP)](LAB6/5TH/1DARR.c)** | Overlapping subproblem elimination via bottom-up linear dynamic programming tabulation. | $O(n)$ Time, $O(n)$ Space |
+| **06** | **[0/1 Knapsack Problem (DP)](LAB6/6TH/2DARR.c)** | Pseudo-polynomial 2D dynamic programming for 0/1 item subset profit maximization. | $O(n \cdot W)$ Time & Space |
+| **07** | **[Longest Common Subsequence (DP)](LAB6/7TH/CONVOLUTION.c)** | 2D dynamic programming grid construction and backtrack path recovery for string sequence alignment. | $O(m \cdot n)$ Time & Space |
+| **08** | **[Matrix Chain Multiplication (DP)](LAB6/8TH/Sorting.c)** | Interval dynamic programming optimizing associative scalar multiplication sequence order. | $O(N^3)$ Time, $O(N^2)$ Space |
 
 ---
 
