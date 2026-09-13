@@ -49,8 +49,8 @@ The objective is to determine the minimum number of coin slides required to inve
 
 ---
 
-> **Course:** Design and Analysis of Algorithms (DAA), Lab-07[cite: 1]  
-> **Instructor:** Dr. Ajaya Kumar Dash[cite: 1]  
-> **Date:** 08 September 2026[cite: 1]
+> **Course:** Design and Analysis of Algorithms (DAA), Lab-07  
+> **Instructor:** Dr. Ajaya Kumar Dash 
+> **Date:** 08 September 2026
 
 ---
