@@ -3,13 +3,13 @@
 > **Institution:** IIIT BHUBANESWAR  
 > **Course:** Design and Analysis of Algorithm (DAA) - Lab Portfolio  
 > **Program:** BTech CSE-B, 3rd Semester  
-> **Instructor:** Dr. Ajaya Kumar Dash   
+> **Instructor:** Dr. Ajaya Kumar Dash  
 > **Student Name:** SUBHAM MOHANTY | **Roll No:** B425058
 
 ---
 
 ## 📖 About This Repository
-Welcome to my DAA Lab portfolio! This repository contains all the C programming assignments for **Lab 01, Lab 02, Lab 03, Lab 04, Lab 05, and Lab 06**, focused on foundational algorithmic design, asymptotic time complexity, divide-and-conquer paradigms, dynamic programming, and performance analysis.
+Welcome to my DAA Lab portfolio! This repository contains all the C programming assignments for **Lab 01, Lab 02, Lab 03, Lab 04, Lab 05, Lab 06, and Lab 07**, focused on foundational algorithmic design, asymptotic time complexity, divide-and-conquer paradigms, dynamic programming, puzzle reductions, and empirical performance analysis.
 
 Rather than just writing code that "works," these programs are engineered to prove mathematical concepts through empirical data generation, direct performance comparisons, and step-by-step visual simulations.
 
@@ -95,10 +95,26 @@ Click on any program title below to view the source code.
 | **02** | **[0/1 Knapsack Problem (DP)](LAB6/2ND/KnapSack.c)** | Pseudo-polynomial 2D dynamic programming for 0/1 item subset profit maximization. | $O(n \cdot W)$ Time & Space |
 | **03** | **[Longest Common Subsequence (DP)](LAB6/3RD/LCS.c)** | 2D dynamic programming grid construction and backtrack path recovery for string sequence alignment. | $O(m \cdot n)$ Time & Space |
 | **04** | **[Matrix Chain Multiplication (DP)](LAB6/4TH/MCM.c)** | Interval dynamic programming optimizing associative scalar multiplication sequence order. | $O(N^3)$ Time, $O(N^2)$ Space |
-| **05** | **[1D Array Operations & Analysis](LAB6/5TH/1DARR.c)** | Comprehensive suite of 9 array operations: order statistics, duplicate removal, and two-pointer pivot partitioning[cite: 1]. | $O(n)$ to $O(n \log n)$ |
-| **06** | **[2D Matrix Algebra & Solvers](LAB6/6TH/2DARR.c)** | Matrix algebra, in-place transposition, Gaussian elimination for determinants, and power iteration for eigenpairs[cite: 1]. | $O(n^2)$ to $O(n^3)$ |
-| **07** | **[FFT Fast Vector Convolution](LAB6/7TH/CONVOLUTION.c)** | Discrete linear vector convolution using divide-and-conquer Cooley-Tukey Fast Fourier Transform (FFT)[cite: 1]. | $O(n \log n)$ |
-| **08** | **[Sorting via Subsequence Reversals](LAB6/8TH/Sorting.c)** | Permutation sorting restricted strictly to subsequence reversals with $O(n)$ bounds and in-place divide-and-conquer merge[cite: 1]. | $O(n \log^2 n)$ Cost |
+| **05** | **[1D Array Operations & Analysis](LAB6/5TH/1DARR.c)** | Comprehensive suite of 9 array operations: order statistics, duplicate removal, and two-pointer pivot partitioning. | $O(n)$ to $O(n \log n)$ |
+| **06** | **[2D Matrix Algebra & Solvers](LAB6/6TH/2DARR.c)** | Matrix algebra, in-place transposition, Gaussian elimination for determinants, and power iteration for eigenpairs. | $O(n^2)$ to $O(n^3)$ |
+| **07** | **[FFT Fast Vector Convolution](LAB6/7TH/CONVOLUTION.c)** | Discrete linear vector convolution using divide-and-conquer Cooley-Tukey Fast Fourier Transform (FFT). | $O(n \log n)$ |
+| **08** | **[Sorting via Subsequence Reversals](LAB6/8TH/Sorting.c)** | Permutation sorting restricted strictly to subsequence reversals with $O(n)$ bounds and in-place divide-and-conquer merge. | $O(n \log^2 n)$ Cost |
+
+---
+
+## 📂 Lab 07: Index of Programs
+
+Click on any program title below to view the source code.
+
+| Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
+| :---: | :--- | :--- | :--- |
+| **01** | **[Invert the Coin-Triangle](LAB7/1ST/1stCoinTest.c)** | Mathematical lattice overlap maximization to flip a packed coin triangle upside down with minimum slides[cite: 1]. | $O(1)$ Closed-Form |
+| **02** | **[Super Egg Testing Experiment](LAB7/2ND/2ndSuperEgg.c)** | Dynamic programming formulation to determine the minimum worst-case drops for $E$ eggs and $F$ floors[cite: 1]. | $O(E \cdot F^2)$ Time, $O(E \cdot F)$ Space |
+| **03** | **[Reve's Puzzle (4-Peg Hanoi)](LAB7/3RD/3rdReve.c)** | Frame-Stewart divide-and-conquer algorithm transferring $n$ disks across 4 pegs in minimal moves (33 moves for $n=8$)[cite: 1]. | $O(2^{\sqrt{2n}})$ Time, $O(n)$ Space |
+| **04** | **[Security Switches](LAB7/4TH/4thSecurity.c)** | Gray-code isomorphic recurrence solving constrained sequential toggling of $n$ security switches[cite: 1]. | $O(n)$ Iterative, $O(1)$ Space |
+| **05** | **[Hitting a Moving Target](LAB7/5TH/5thHit.c)** | Deterministic two-pass parity-sweeping strategy to intercept an unseen target hopping adjacent line spots[cite: 1]. | $O(n)$ Time, $O(1)$ Space |
+| **06** | **[The Best Time to Be Alive](LAB7/6TH/6thAlive.c)** | Sweep-line coordinate compression processing sorted birth and death events with custom tie-break priorities[cite: 1]. | $O(n \log n)$ Time, $O(n)$ Space |
+| **07** | **[Matrix Chain Multiplication](LAB7/7TH/7thMcm.c)** | Dynamic programming tabulation computing minimal scalar multiplications and reconstructing optimal parentheses tree[cite: 1]. | $O(n^3)$ Time, $O(n^2)$ Space |
 
 ---
 
@@ -116,9 +132,9 @@ If you are evaluating these files on a Linux/Unix environment, you can compile a
 
 ```bash
 # General compilation
-gcc LAB6/1ST/Fibonnaci.c -o Fibonnaci
-./Fibonnaci
+gcc LAB7/2ND/SuperEggDrop.c -o SuperEggDrop
+./SuperEggDrop
 
-# Programs utilizing <math.h> or <complex.h> (such as Lab 06 Q6 & Q7) require the -lm flag:
-gcc LAB6/7TH/CONVOLUTION.c -o CONVOLUTION -lm
-./CONVOLUTION
+# Programs utilizing <math.h> or <complex.h> (such as Lab 06 Q6 & Q7 or Lab 07 math solutions) require the -lm flag:
+gcc LAB7/1ST/InvertCoinTriangle.c -o InvertCoinTriangle -lm
+./InvertCoinTriangle
