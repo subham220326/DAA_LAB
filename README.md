@@ -118,6 +118,24 @@ Click on any program title below to view the source code.
 
 ---
 
+## 📂 Lab 08: Index of Programs
+
+Click on any program title below to view the source code.
+
+| Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
+| :---: | :--- | :--- | :--- |
+| **01** | **[Minimum Coin Change](LAB8/1ST/1stMinimumCoin.c)** | Dynamic programming to determine the minimum number of coins required to form a target amount. | $O(nV)$ Time, $O(V)$ Space |
+| **02** | **[Coin Change](LAB8/2ND/2ndCoinChange.c)** | Dynamic programming to count the total number of distinct combinations for a target amount. | $O(nV)$ Time, $O(V)$ Space |
+| **03** | **[Longest Common Subsequence](LAB8/3RD/3rdLCS.c)** | 2D dynamic programming with traceback to compute and reconstruct the longest common subsequence. | $O(mn)$ Time, $O(mn)$ Space |
+| **04** | **[Longest Increasing Subsequence](LAB8/4TH/4thLIS.c)** | Dynamic programming to determine the length of the longest strictly increasing subsequence. | $O(n^2)$ Time, $O(n)$ Space |
+| **05** | **[Maximum Sum Increasing Subsequence](LAB8/5TH/5thMSIS.c)** | Dynamic programming to maximize the sum of a strictly increasing subsequence. | $O(n^2)$ Time, $O(n)$ Space |
+| **06** | **[Edit Distance](LAB8/6TH/6thEditDist.c)** | 2D dynamic programming with traceback using insertion, deletion, and substitution operations. | $O(mn)$ Time, $O(mn)$ Space |
+| **07** | **[Rod Cutting](LAB8/7TH/7thRod.c)** | Dynamic programming to maximize rod-cutting revenue and reconstruct the optimal decomposition. | $O(n^2)$ Time, $O(n)$ Space |
+| **08** | **[Optimal Binary Search Tree](LAB8/8TH/8thBST.c)** | Interval dynamic programming to construct an optimal BST with minimum expected search cost. | $O(n^3)$ Time, $O(n^2)$ Space |
+| **09** | **[Collatz Conjecture](LAB8/9TH/9thCollatz.c)** | Iterative Collatz trajectory simulation using dynamic memory allocation and overflow checking. | $O(T(n))$ Time, $O(T(n))$ Space |
+
+---
+
 ## 🛠️ Technology Stack & Prerequisites
 All programs in this repository are written in **Standard C (C99 / C11)** and are designed to be run directly from the terminal. There are no heavy external dependencies required.
 
