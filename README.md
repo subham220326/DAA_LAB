@@ -135,6 +135,22 @@ Click on any program title below to view the source code.
 | **09** | **[Collatz Conjecture](LAB8/9TH/9thCollatz.c)** | Iterative Collatz trajectory simulation using dynamic memory allocation and overflow checking. | $O(T(n))$ Time, $O(T(n))$ Space |
 
 ---
+## 📂 Lab 09: Index of Programs
+
+Click on any program title below to view the source code.
+
+| Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
+| :---: | :--- | :--- | :--- |
+| **01** | **[Fractional Knapsack with Deterioration Rate](LAB9/1ST/1stFractionalKnapSackWithDecay.c)** | Greedy scheduling by decaying value density $(v_i/w_i) - \lambda_i t$, with fractional selection of the last item. | $O(n \log n)$ Time, $O(n)$ Space |
+| **02** | **[Huffman Coding](LAB9/2ND/2ndHuffman.c)** | Min-heap greedy merging of the two least-frequent nodes, followed by canonical codebook generation (ordered by code length, then lexicographically). | $O(n \log n)$ Time, $O(n)$ Space |
+| **03** | **[Minimum Initial Fuel (Reverse Greedy)](LAB9/3RD/3rdMinimumRefuel.c)** | Max-heap of passed stations; refuel from the largest available station only when stuck, to minimise the number of stops. | $O(n \log n)$ Time, $O(n)$ Space |
+| **04** | **[Minimum Cost to Connect Sticks](LAB9/4TH/4thMinimumConnectStick.c)** | Min-heap greedy that repeatedly merges the two shortest sticks (Huffman-style merge cost). | $O(n \log n)$ Time, $O(n)$ Space |
+| **05** | **[Candy Distribution Problem](LAB9/5TH/5thCandyDict.c)** | Bi-directional slope greedy: a left-to-right pass and a right-to-left pass, taking the maximum at each child. | $O(n)$ Time, $O(n)$ Space |
+| **06** | **[Reorganise String with K-Distance Apart](LAB9/6TH/6thReorganise.c)** | Max-heap on character frequencies with a cooldown queue of size $K$ to enforce the spacing constraint. | $O(n \log \sigma)$ Time, $O(n + \sigma)$ Space |
+| **07** | **[Minimise Deviation in Array](LAB9/7TH/7thMinimizeDev.c)** | Normalise all elements to their maximum (even) form, then use a max-heap to repeatedly halve the maximum while tracking the minimum. | $O(n \log n \cdot \log M)$ Time, $O(n)$ Space |
+| **08** | **[Minimum Number of Meeting Rooms](LAB9/8TH/8thMinNoOfMeetiing.c)** | Sort intervals by start time and use a min-heap of end times to reuse rooms. | $O(n \log n)$ Time, $O(n)$ Space |
+| **09** | **[Hu-Tucker Greedy Simulation](LAB9/9TH/9thHuTucker.c)** | Optimal alphabetic tree construction that preserves in-order sequence, merging the minimum-weight compatible pair. | $O(n^2)$ Time (simulation), $O(n)$ Space |
+| **10** | **[Greedy Superstring Conjecture](LAB9/10TH/10thShortestSubstring.c)** | Greedy merging of the string pair with maximum overlap, used to study the approximation ratio against the optimal shortest superstring. | $O(n^2 L)$ Time, $O(n^2)$ Space |
 
 ## 🛠️ Technology Stack & Prerequisites
 All programs in this repository are written in **Standard C (C99 / C11)** and are designed to be run directly from the terminal. There are no heavy external dependencies required.
