@@ -159,11 +159,11 @@ Click on any program title below to view the source code.
 
 | Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
 | :---: | :--- | :--- | :--- |
-| **01** | **[Online Graph Bipartiteness Testing](LAB10/1STOnlineGraphBipartiteness.c)** | DSU with parity tracking, path compression, and union by size to detect odd-length cycles dynamically and reject edges violating bipartiteness. | $O(V + E\alpha(V))$ Time, $O(V)$ Space |
-| **02** | **[Dynamic Connected Components in a Grid](LAB10/2NDDynamicConnectedComponents.c)** | DSU with 2D-to-1D coordinate flattening and four-directional neighbor unions to maintain the number of connected land components after each insertion. | $O(RC + k\alpha(RC))$ Time, $O(RC)$ Space |
-| **03** | **[Maximum Weight Component with Size Constraints](LAB10/3RDMaximumWeightComponent.c)** | Augmented DSU tracking component sizes and vertex-weight sums, combined with a segment tree to query the maximum component weight under a size limit $K$. | $O(V\log V + E\alpha(V))$ Time, $O(V)$ Space |
-| **04** | **[Reverse Time-Step DSU Application](LAB10/4THReverseTimeStep.c)** | Offline dynamic connectivity via reverse vertex activation, DSU component aggregation, and a segment tree for maximum component sums after deletions. | $O(V\log V + (V+E)\alpha(V))$ Time, $O(V+E)$ Space |
-| **05** | **[Lexicographically Smallest Connected Component Permutation](LAB10/5THLexicographicallySmallestConnected.c)** | DSU to identify swappable connected components, followed by sorting their positions and values to construct the lexicographically smallest reachable permutation. | $O(V\log V + (V+E)\alpha(V))$ Time, $O(V)$ Space |
+| **01** | **[Online Graph Bipartiteness Testing](LAB10/1ST/1STOnlineGraphBipartiteness.c)** | DSU with parity tracking, path compression, and union by size to detect odd-length cycles dynamically and reject edges violating bipartiteness. | $O(V + E\alpha(V))$ Time, $O(V)$ Space |
+| **02** | **[Dynamic Connected Components in a Grid](LAB10/2ND/2NDDynamicConnectedComponents.c)** | DSU with 2D-to-1D coordinate flattening and four-directional neighbor unions to maintain the number of connected land components after each insertion. | $O(RC + k\alpha(RC))$ Time, $O(RC)$ Space |
+| **03** | **[Maximum Weight Component with Size Constraints](LAB10/3RD/3RDMaximumWeightComponent.c)** | Augmented DSU tracking component sizes and vertex-weight sums, combined with a segment tree to query the maximum component weight under a size limit $K$. | $O(V\log V + E\alpha(V))$ Time, $O(V)$ Space |
+| **04** | **[Reverse Time-Step DSU Application](LAB10/4TH/4THReverseTimeStep.c)** | Offline dynamic connectivity via reverse vertex activation, DSU component aggregation, and a segment tree for maximum component sums after deletions. | $O(V\log V + (V+E)\alpha(V))$ Time, $O(V+E)$ Space |
+| **05** | **[Lexicographically Smallest Connected Component Permutation](LAB10/5TH/5THLexicographicallySmallestConnected.c)** | DSU to identify swappable connected components, followed by sorting their positions and values to construct the lexicographically smallest reachable permutation. | $O(V\log V + (V+E)\alpha(V))$ Time, $O(V)$ Space |
 
 Here, $\alpha(V)$ denotes the inverse Ackermann function, which is effectively constant for practical inputs.
 
