@@ -1,5 +1,3 @@
----
-
 # Q1: Shortest Path on Parity-Constrained Graphs via 0-1 BFS
 
 **Suggested C Filename:** `Q1_ParityConstrainedShortestPath.c`
