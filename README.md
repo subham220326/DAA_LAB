@@ -165,6 +165,19 @@ Click on any program title below to view the source code.
 | **04** | **[Reverse Time-Step DSU Application](LAB10/4TH/4THReverseTimeStep.c)** | Offline dynamic connectivity via reverse vertex activation, DSU component aggregation, and a segment tree for maximum component sums after deletions. | $O(V\log V + (V+E)\alpha(V))$ Time, $O(V+E)$ Space |
 | **05** | **[Lexicographically Smallest Connected Component Permutation](LAB10/5TH/5THLexicographicallySmallestConnected.c)** | DSU to identify swappable connected components, followed by sorting their positions and values to construct the lexicographically smallest reachable permutation. | $O(V\log V + (V+E)\alpha(V))$ Time, $O(V)$ Space |
 
+----
+## 📂 Lab 11: Index of Programs
+
+Click on any program title below to view the source code.
+
+| Sl No. | Program Title | Algorithmic Concept Explored | Asymptotic Complexity Focus |
+| :---: | :--- | :--- | :--- |
+| **01** | **[Parity-Constrained Shortest Path](LAB11/1ST/1ST-BFS.c)** | Shortest path on a directed $\{0,1\}$-weighted graph via 0-1 BFS over a 2-layer parity state graph. | $\mathcal{O}(|V| + |E|)$ |
+| **02** | **[Radius-Constrained Voronoi Partitioning](LAB11/2ND/2ND-Multi-SourceBFS.c)** | Multi-source BFS to assign vertices to nearest service hubs with index tie-breaking and radius cutoff $R$. | $\mathcal{O}(|V| + |E|)$ |
+| **03** | **[Bidirectional Word Graph Transformation](LAB11/3RD/3RD-BidirectionalBFS.c)** | Bidirectional BFS with dynamic Hamming-1 generation to find the shortest mutation sequence. | $\mathcal{O}(b^{d/2} \cdot 26 \cdot L)$ |
+
+----
+
 Here, $\alpha(V)$ denotes the inverse Ackermann function, which is effectively constant for practical inputs.
 
 
